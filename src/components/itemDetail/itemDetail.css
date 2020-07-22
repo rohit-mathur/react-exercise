@@ -1,0 +1,36 @@
+.item-details-container{
+    background:#fff;
+    padding:10px;
+    margin:20px;
+    box-shadow:0 0 5px #444444;
+    border-radius:5px;
+}
+.item-container{
+    display: flex;
+    margin-top:10px;
+}
+.item-image, .item-details{
+    flex: 1;
+}
+.item-details-container .details-row{
+    display: flex;
+    align-items: center;
+    margin:10px 0;
+}
+.item-details-container .details-row div:nth-child(1){
+    margin-right:5px;
+}
+.item-details-container .details-row div{
+    margin:0;
+}
+
+.item-details-container > span{
+    font-size:20px;
+    cursor:pointer;
+    padding:0;
+    display: inline-block;
+}
+
+.item-details-container > span:hover{
+    color: #444;
+}
